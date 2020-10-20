@@ -1,0 +1,10 @@
+@import '../abstracts/variables';
+@import '../abstracts/functions';
+@import '../abstracts/placeholders';
+
+.main-content {
+    @extend %container;
+
+    border: 1px solid red;
+    display: grid;
+}

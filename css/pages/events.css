@@ -1,0 +1,11 @@
+.main-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main-content {
+  border: 1px solid red;
+  display: -ms-grid;
+  display: grid;
+}
+/*# sourceMappingURL=events.css.map */

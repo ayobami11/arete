@@ -1,0 +1,16 @@
+h1 {
+    @extend %text-center;
+
+    color: getColor('light-blue');
+    font-weight: fontWeight('semi-bold');
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+
+.top-image {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
