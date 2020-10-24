@@ -42,7 +42,7 @@ h2 {
 }
 
 .founder-image {
-  border: 2px solid tomato;
+  border: 2px solid #d1361a;
   border-radius: 50%;
 }
 
@@ -74,6 +74,10 @@ section {
         justify-content: space-around;
   }
   .about {
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
+            box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -83,6 +87,9 @@ section {
   }
   .about-row {
     width: 45%;
+  }
+  .about-row:nth-child(2) {
+    border-left: 1px solid #e5e5e5;
   }
 }
 /*# sourceMappingURL=about.css.map */

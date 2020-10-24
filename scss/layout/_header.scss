@@ -3,12 +3,13 @@
 }
 
 .logo {
-    margin: 0 auto;
-    width: 60px;
+    @extend %container;
+
+    width: 96px;
 }
 
 .header {
-    height: 75px;
+    background: getColor('white');
 
     &-menu {
         @extend %flex;
@@ -41,6 +42,7 @@
 
     .logo {
         margin: 0;
+        width: 70px;
     }
 
     .header {

@@ -4,7 +4,12 @@
 }
 
 .main-content {
+  background: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
+          box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
   line-height: 2;
+  margin: 2em auto;
 }
 
 h2 {
@@ -48,8 +53,6 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 24px 18px 64px 0px #F0F0F0;
-            box-shadow: 24px 18px 64px 0px #F0F0F0;
   }
   form,
   section {
@@ -57,7 +60,7 @@ textarea {
     width: 50%;
   }
   form {
-    border-left: 1px solid #E5E5E5;
+    border-left: 1px solid #e5e5e5;
   }
 }
 /*# sourceMappingURL=contact.css.map */
