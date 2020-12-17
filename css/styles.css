@@ -26,6 +26,11 @@ nav ul li {
     transition: 300ms ease-in-out;
 }
 
+nav ul li a{
+    color: #50749b;
+    text-decoration: none;
+}
+
 nav ul li:hover{
     color: #ee4099;
     font-style: italic;
@@ -36,7 +41,7 @@ nav ul li:hover{
     color: #fff;
     width: 100%;
     height: 400px;
-    background-image: url("./images/Rectangle\ 190.png");
+    background-image: url("../images/Rectangle\ 190.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -248,4 +253,33 @@ nav ul li:hover{
     border-radius: 1.5rem;
     text-decoration: none;
     width: fit-content;
+}
+
+.events{
+    width: 100%;
+}
+
+.events-contain{
+    width: 80%;
+    margin: auto;
+}
+
+.events a{
+    color: #87cbe0;
+    text-decoration: none;
+}
+
+.card-container2{
+    width: 80%;
+    margin: 30px auto;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: #103459;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
